@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static void isEven(int number) throws Exception {
+    public static void isEven(int number) throws Exception {
         if (number % 2 == 1) {
             throw new Exception("El numero es impar");
         }
