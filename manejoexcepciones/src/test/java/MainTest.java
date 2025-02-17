@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-
 class MainTest {
 
     @Test
@@ -22,7 +21,6 @@ class MainTest {
     @Test
     @DisplayName("Test para probar el ingreso de un número par")
     void testEvenNumber() {
-
         assertDoesNotThrow(() -> {
             Main.isEven(2);
         });

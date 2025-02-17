@@ -14,11 +14,14 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         try {
             System.out.print("Ingresa un número: ");
             isEven(sc.nextInt());
         } catch (Exception e) {
             System.out.println(e.getMessage());
+        } finally {
+            sc.close();
         }
     }
 }
